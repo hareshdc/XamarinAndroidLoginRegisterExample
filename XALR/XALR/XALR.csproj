@@ -54,7 +54,10 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\Admin.cs" />
+    <Compile Include="DBHelper\Helper.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="RegistrationPage.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
